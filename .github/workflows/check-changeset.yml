@@ -1,0 +1,28 @@
+name: Check for Changeset
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  check-changeset:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: yarn --frozen-lockfile
+
+      - name: Verify that a changeset exists
+        run: |
+          git fetch origin main --depth=1 || true   # 👈 ensures we have a local main branch
+          git branch main origin/main || true       # 👈 creates local ref
+          # Fetch tags so "status" can compare against them
+          git fetch origin --tags || true
+          yarn changeset status --verbose
