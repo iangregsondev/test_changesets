@@ -1,8 +1,11 @@
 {
   "name": "@iangregsondev/package-a",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "index.js"
   ]
