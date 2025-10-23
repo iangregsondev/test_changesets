@@ -1,5 +1,11 @@
 # @iangregsondev/package-a
 
+## 1.0.7
+
+### Patch Changes
+
+- d3fcf86: My new feature
+
 ## 1.0.6
 
 ### Patch Changes
