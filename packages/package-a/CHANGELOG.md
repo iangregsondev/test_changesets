@@ -1,5 +1,11 @@
 # @iangregsondev/package-a
 
+## 1.0.6
+
+### Patch Changes
+
+- 12260eb: I made a change!
+
 ## 1.0.5
 
 ### Patch Changes
