@@ -1,5 +1,11 @@
 # @iangregsondev/package-c
 
+## 1.2.3
+
+### Patch Changes
+
+- another nump
+
 ## 1.2.2
 
 ### Patch Changes
