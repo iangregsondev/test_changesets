@@ -3,6 +3,7 @@
   "version": "1.2.1",
   "main": "index.js",
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "license": "MIT"
