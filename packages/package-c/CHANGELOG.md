@@ -1,5 +1,11 @@
 # @iangregsondev/package-c
 
+## 1.2.4
+
+### Patch Changes
+
+- f7bbcd7: Now this is a bump via action
+
 ## 1.2.3
 
 ### Patch Changes
