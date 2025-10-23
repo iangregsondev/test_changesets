@@ -1,5 +1,11 @@
 # @iangregsondev/package-d
 
+## 1.0.5
+
+### Patch Changes
+
+- 2ee7af0: me trying to add something
+
 ## 1.0.4
 
 ### Patch Changes
