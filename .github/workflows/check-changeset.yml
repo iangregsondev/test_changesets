@@ -21,6 +21,8 @@ jobs:
 
       - name: Verify that a changeset exists
         run: |
+          git fetch origin main --depth=1 || true   # 👈 ensures we have a local main branch
+          git branch main origin/main || true       # 👈 creates local ref
           # Fetch tags so "status" can compare against them
           git fetch origin --tags || true
           yarn changeset status --verbose
