@@ -1,5 +1,12 @@
 # @iangregsondev/package-b
 
+## 1.5.6
+
+### Patch Changes
+
+- Updated dependencies [484652e]
+  - @iangregsondev/package-a@2.0.0
+
 ## 1.5.5
 
 ### Patch Changes

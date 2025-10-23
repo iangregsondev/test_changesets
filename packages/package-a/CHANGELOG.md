@@ -1,5 +1,11 @@
 # @iangregsondev/package-a
 
+## 2.0.0
+
+### Major Changes
+
+- 484652e: This was a major bump for pack a
+
 ## 1.0.8
 
 ### Patch Changes
