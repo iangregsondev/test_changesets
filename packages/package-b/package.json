@@ -1,6 +1,7 @@
 {
   "name": "@iangregsondev/package-b",
   "version": "1.5.5",
+  "type": "module",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -9,5 +10,8 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "@iangregsondev/package-a": "workspace:*"
+  }
 }

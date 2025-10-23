@@ -1,6 +1,7 @@
 {
   "name": "@iangregsondev/package-a",
   "version": "1.0.8",
+  "type": "module",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
