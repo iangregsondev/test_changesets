@@ -28,6 +28,11 @@ jobs:
             - name: Install Dependencies
               run: yarn
 
+            - name: Ensure repo has a valid changeset before publishing
+              run: |
+                git fetch origin --tags || true
+                yarn changeset status --verbose
+
             - name: Create Release Pull Request or Publish to npm
               id: changesets
               uses: changesets/action@v1
