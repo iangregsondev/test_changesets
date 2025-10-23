@@ -1,5 +1,11 @@
 # @iangregsondev/package-d
 
+## 1.0.4
+
+### Patch Changes
+
+- f7bbcd7: Now this is a bump via action
+
 ## 1.0.3
 
 ### Patch Changes
