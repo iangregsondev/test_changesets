@@ -1,5 +1,11 @@
 # @iangregsondev/package-a
 
+## 1.0.8
+
+### Patch Changes
+
+- 6c0e192: Releasing bug fixes for xyz
+
 ## 1.0.7
 
 ### Patch Changes
