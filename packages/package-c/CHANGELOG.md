@@ -1,5 +1,11 @@
 # @iangregsondev/package-c
 
+## 1.2.5
+
+### Patch Changes
+
+- 2ee7af0: me trying to add something
+
 ## 1.2.4
 
 ### Patch Changes

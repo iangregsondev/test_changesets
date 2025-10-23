@@ -1,5 +1,11 @@
 # @iangregsondev/package-b
 
+## 1.5.5
+
+### Patch Changes
+
+- 2ee7af0: me trying to add something
+
 ## 1.5.4
 
 ### Patch Changes
