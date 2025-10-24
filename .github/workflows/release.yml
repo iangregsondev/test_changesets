@@ -29,45 +29,51 @@ jobs:
             - name: Enable corepack
               run: corepack enable
 
-            # - name: Install Dependencies
-            #   run: yarn
-
-            # - name: Ensure repo has a valid changeset before publishing
-            #   run: |
-            #       git fetch origin --tags || true
-            #       yarn changeset status --verbose
-
-            # - name: Create Release Pull Request or Publish to npm
-            #   id: changesets
-            #   uses: changesets/action@v1
-            #   # with:
-            #   #     # This expects you to have a script called release which does a build for your packages and calls changeset publish
-            #   #     publish: yarn changeset tag
-            #   env:
-            #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            #       NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
             - name: Check tool versions
               run: |
                 node --version
                 corepack --version
                 yarn --version
 
-            - name: Install dependencies
+            - name: Install Dependencies
               run: yarn install --immutable
 
-            # - name: Prepare branch for Changesetsff
+            # - name: Ensure repo has a valid changeset before publishing
+            #   run: |
+            #       git fetch origin --tags || true
+            #       yarn changeset status --verbose
+
+            - name: Create Release Pull Request or Publish to npm
+              id: changesets
+              uses: changesets/action@v1
+              # with:
+              #     # This expects you to have a script called release which does a build for your packages and calls changeset publish
+              #     publish: yarn changeset tag
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            # - name: Check tool versions
+            #   run: |
+            #     node --version
+            #     corepack --version
+            #     yarn --version
+
+            # - name: Install dependencies
+            #   run: yarn install --immutable
+
+            # - name: Prepare branch for Changesetsffff
             #   run: |
             #     git fetch origin main
             #     git branch main origin/main
 
-            - name: Verify that a changeset exists
-              run: |
-                # git fetch origin main --depth=1 || true
-                # git branch main origin/main || true
+            # - name: Verify that a changeset exists
+            #   run: |
+            #     # git fetch origin main --depth=1 || true
+            #     # git branch main origin/main || true
 
-                # git fetch origin --tags || true
-                # yarn changeset status --verbose
-                # git fetch origin --tags
-                # yarn changeset status --verbose
-                yarn changeset status --since=origin/main --verbose
+            #     # git fetch origin --tags || true
+            #     # yarn changeset status --verbose
+            #     # git fetch origin --tags
+            #     # yarn changeset status --verbose
+            #     yarn changeset status --since=origin/main --verbose

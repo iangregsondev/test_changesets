@@ -20,12 +20,15 @@ jobs:
         run: corepack enable
 
       - name: Install deps
-        run: yarn --frozen-lockfile
+        run: yarn --immutable
 
       - name: Verify that a changeset exists
         run: |
-          git fetch origin main --depth=1 || true   # 👈 ensures we have a local main branch
-          git branch main origin/main || true       # 👈 creates local ref
-          # Fetch tags so "status" can compare against them
-          git fetch origin --tags || true
-          yarn changeset status --verbose
+          # git fetch origin main --depth=1 || true
+          # git branch main origin/main || true
+
+          # git fetch origin --tags || true
+          # yarn changeset status --verbose
+          # git fetch origin --tags
+          # yarn changeset status --verbose
+          yarn changeset status --since=origin/main --verbose
