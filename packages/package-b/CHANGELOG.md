@@ -1,5 +1,11 @@
 # @iangregsondev/package-b
 
+## 1.0.0
+
+### Patch Changes
+
+- d93127b: THis is a beta bump
+
 ## 1.10.0
 
 ### Minor Changes
