@@ -1,5 +1,11 @@
 # @iangregsondev/package-b
 
+## 1.2.1-beta.0
+
+### Patch Changes
+
+- 9964724: blabla
+
 ## 1.10.0
 
 ### Minor Changes
