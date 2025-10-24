@@ -56,7 +56,7 @@ jobs:
             - name: Install dependencies
               run: yarn install --immutable
 
-            # - name: Prepare branch for Changesetsff
+            # - name: Prepare branch for Changesetsffff
             #   run: |
             #     git fetch origin main
             #     git branch main origin/main
