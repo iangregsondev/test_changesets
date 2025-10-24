@@ -1,5 +1,11 @@
 # @iangregsondev/package-b
 
+## 1.6.0
+
+### Minor Changes
+
+- ef43fdc: My new feature!
+
 ## 1.5.6
 
 ### Patch Changes
