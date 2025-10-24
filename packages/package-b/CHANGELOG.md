@@ -1,5 +1,11 @@
 # @iangregsondev/package-b
 
+## 1.10.0
+
+### Minor Changes
+
+- 7056b91: rrrrr
+
 ## 1.9.0
 
 ### Minor Changes
