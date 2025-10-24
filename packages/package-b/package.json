@@ -1,6 +1,6 @@
 {
   "name": "@iangregsondev/package-b",
-  "version": "1.2.0",
+  "version": "1.2.0-beta.0",
   "type": "module",
   "main": "index.js",
   "license": "MIT",
