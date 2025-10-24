@@ -1,5 +1,11 @@
 # @iangregsondev/package-b
 
+## 1.8.0
+
+### Minor Changes
+
+- cdcad4b: solemthign
+
 ## 1.7.0
 
 ### Minor Changes
