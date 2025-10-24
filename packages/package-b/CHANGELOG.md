@@ -1,5 +1,11 @@
 # @iangregsondev/package-b
 
+## 1.7.0
+
+### Minor Changes
+
+- 5170fb1: soemthing
+
 ## 1.6.0
 
 ### Minor Changes
