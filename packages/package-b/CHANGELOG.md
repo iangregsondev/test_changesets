@@ -1,5 +1,11 @@
 # @iangregsondev/package-b
 
+## 1.9.0
+
+### Minor Changes
+
+- 5ebf7a4: test me
+
 ## 1.8.0
 
 ### Minor Changes
